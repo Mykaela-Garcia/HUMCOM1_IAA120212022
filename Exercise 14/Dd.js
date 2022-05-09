@@ -1,0 +1,1 @@
+alert("Mykaela Regine Garcia \n Bachelor of Science in Computer Science \n 1st Year College \n HUMCOM-IAA1 \n Website Intrroduction");
