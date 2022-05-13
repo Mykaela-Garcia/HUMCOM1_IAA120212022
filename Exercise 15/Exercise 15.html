@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Js">
+    <meta name="Name" content="Mykaela Regine Garcia">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Exercise 15</title>
+</head>
+
+    <body>
+        <td>
+            <div class="contain" style="padding: 50px;">
+            <h1 id="2"></h1>
+            <h2 id="2"></h2>
+            <form>
+                <beside>First Name</beside><input id="FirstName" size="100px" placeholder="First Name"></input>
+            </form>
+
+            <br>
+
+            <form>
+                <beside>Age</beside><input id="Age" size="105px" placeholder="Age"></input>
+            </form>
+
+            <h2 id="3"></h2>
+            <form>
+            <beside >Phone Number </beside> <input id="Phone Number" size="100px" placeholder="Phone Number"></input>
+            </form>
+
+            <br>
+    
+            <form>
+            <beside >Email Address </beside> <input id="Email Address" size="100px" placeholder="Email Address"></input>
+            </form>
+
+             <br>
+            <form>
+            <beside >Mailing Address</beside> <input id="Mailing Address" size="100px" placeholder="Mailing Address"></input>
+             </form>
+        
+        <h2 id="4"></h2>
+             <form>
+            <beside >Program</beside> <input id="Program" size="100px" placeholder="Program"></input>
+            </form>
+
+             <br>
+
+            <form>
+            <beside >ID Number </beside> <input id="ID Number" size="100px" placeholder="ID Number"></input>
+            </form>
+
+             <br>
+
+            <form>
+            <beside >Year Level</beside> <input id="Year Level" size="100px" placeholder="Year Level"></input>
+            </form>
+
+             <br>
+
+            <form>
+            <beside >Section</beside> <input id="Section" size="100px" placeholder="Section"></input> 
+            </form>
+
+            <br>
+            <hr>
+        </div>
+
+        <script type="text/javascript" src="Exercise 15.js">
+            function validateForm() {
+                var x = document.forms["myForm"]["fname"].value;
+                if(x==""){
+                    alert("Please input Name");
+                    return false;
+                }
+            }
+        </script>
+        
+        <form name="myForm" action="/action_page_post.php"
+        onsubmit="returnvalidateForm()" method="post">
+        <input type="submit" id="alert">
+    </form>
+</align>
+</body>
+</html> 
