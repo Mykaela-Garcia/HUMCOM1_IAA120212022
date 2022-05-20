@@ -1,0 +1,36 @@
+body{
+    /*background-color: rgb(245, 231, 241)*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 800px;
+}
+h1.title{
+    color: rgb(30, 55, 100);
+    text-align: center;
+    font-size: 800%;
+}
+dd.dd1{
+    text-align: center;
+    font-size: large;
+}
+dl.dl1{
+    text-align: justify;
+}
+.li1, .li2, .li3, .li4, .li5, .li6, .li7, .li8, .li9{
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+}
+.h31, .h32, .h33, .h34, .h35, .h36, .h37, .h38{
+    background-color: rgb(173, 206, 255);
+    text-align: center;
+}
+hr{
+    border-bottom: 2px solid rgb(60, 151, 187);
+}
+div{
+    text-align: center;"
+}

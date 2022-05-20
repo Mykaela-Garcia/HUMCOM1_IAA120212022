@@ -1,0 +1,113 @@
+*{
+    box-sizing: box-border;
+}
+body{
+    background-color: rgb(164, 212, 226);
+}
+div{
+    margin: 10px;
+    border: 10 px solid rgb(0, 0, 0);
+    padding-right: 25px;
+    padding-top: 5px;
+    height: 250px;
+    width: 1300px;
+}
+
+header{
+    background-image: url(https://scontent.fmnl30-2.fna.fbcdn.net/v/t1.15752-9/277993201_557379402339431_8123939296150044022_n.jpg?stp=dst-jpg_p228x119&_nc_cat=110&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEAUtVB5H4uFD-5m7TT3PyuEeI9P9qcUxwR4j0_2pxTHDo0O3RGqrOrTBILZvi1zlZgNB2hNoUJVlMZvg8eShK8&_nc_ohc=jbRKONLfRJsAX_MLzlN&_nc_ht=scontent.fmnl30-2.fna&oh=03_AVJyNfbUIsJRrgEXDr8-RCNAchjNxLjmQ20gk4fBjffxiQ&oe=627D3F87);
+    background-size: cover;
+    height: 200px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+nav{
+    float: right;
+    overflow: hidden;
+    border-bottom: 1000px;
+    background-color:rgb(155, 175, 168);
+}
+
+.internal
+{
+    float: left;
+    display: block;
+    color:rgb(155, 175, 168);
+    text-align: center;
+    padding: 91px 130px;
+    border: 10px solid rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(74, 114, 100);
+    color: black;
+}
+
+section {
+    float: none;
+    width: 90%;
+    padding: 15px;
+    clear: both;
+    margin: 20px;
+}
+
+h1{
+    font-family:'Comic Sans MS';
+    text-align: center;
+    color: rgb(77, 9, 9);
+    background: rgb(74, 114, 100);
+    text-shadow: 0 0 10px rgb(255, 140, 140)}
+
+    h2{
+        font-family: 'Comic Sans MS';
+        font-size: 40px;
+        color:rgb(128, 252, 235)
+    }
+
+    .movie
+{
+    color:rgb(48, 47, 119)
+
+}
+
+#section1{
+    background-image:url(https://imageio.forbes.com/specials-images/imageserve/5efa33eed4034b0007bf4b5c/Harry-Potter-movies-to-leave-HBO-Max--the-WarnerMedia-streaming-platform--in-August/960x0.jpg?fit=bounds&format=jpg&width=960);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1320px;
+    height: 400px;
+}
+#section2{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/f/fa/Wiki_training_0226.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1320px;
+    height: 400px;
+}
+#section3{
+    background-image:url(https://cdn1.vectorstock.com/i/1000x1000/14/70/blue-piano-background-vector-6651470.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1320px;
+    height: 500px;
+}
+.movie
+{
+    font-size: 25px;
+    color: rgb(230, 3, 3)
+}
+footer {
+    background-color:rgb(255, 254, 254);
+    border: 10px outset rgb(74, 114, 100);;
+    padding-left: 10px;
+  }
+  
+  article{
+  clear: both;
+  border: 10px solid rgb(74, 114, 100);;
+  }
